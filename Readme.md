@@ -13,8 +13,8 @@ Inside the project file, you will see the .json file data that contains the stud
 
 ## 200IQ Team Members
 
-111812 - **Steve O. Nyanumba**
-110552 - **Tamara Cheruiyot**
-075503 - **Winnie Oduor**
-103314 - **Betty Wairimu Kyalo**
-082519 - **Thadeus Miseda**
+- 111812 - **Steve O. Nyanumba**
+- 110552 - **Tamara Cheruiyot**
+- 075503 - **Winnie Oduor**
+- 103314 - **Betty Wairimu Kyalo**
+- 082519 - **Thadeus Miseda**
