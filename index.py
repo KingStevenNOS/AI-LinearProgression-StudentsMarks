@@ -3,11 +3,7 @@ from scipy import stats
 import json
 f = open('./students_marks.json')
 
-
 items = json.load(f)
-
-
-
 
 for student in items['students']:
     Y= student['grades']
@@ -24,14 +20,14 @@ for student in items['students']:
         
         return prediction
     mymodel = list(map(myFunc, X))
-    fourth = myFunc(3)
+    nextScore = myFunc(n)
         
-    print(student['name']+' will get '+ str(fourth) + ' points out of 5.0 in the next exam')
+    print(student['name']+' will get '+ str(nextScore) + ' points out of 5.0 in their exam no. '+ str(n))
 
     plt.scatter(X,Y)
-    plt.figure(student['name'])
+    plt.figure(student['name'] +' => the Next Score ='+ str(nextScore))
     plt.plot(X, mymodel)
-    
+
 plt.show()
 
 
