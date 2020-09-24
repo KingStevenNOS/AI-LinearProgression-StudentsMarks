@@ -35,7 +35,7 @@
     "id": 505,
     "name":"Jackson",
     "active": false,
-    "grades": [ 5.0, 5.0, 5.0,4.5, 5.0, 5.0],
+    "grades": [ 5.0, 5.0, 5.0, 4.5, 5.0, 5.0],
     "yearsOld":15,
     "color":"blue"
     },
